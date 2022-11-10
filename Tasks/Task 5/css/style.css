@@ -1,0 +1,134 @@
+* {
+    font-family: sans-serif;
+  }
+  
+  body {
+    margin: 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:flex-start;
+  }
+  
+  .container .item-1 {
+    align-items:flex-start;
+    text-align: center;
+    background: palegoldenrod;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:1;
+    order:1;
+  }
+
+  .container .item-2 {
+    text-align: center;
+    background: tomato;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow: 0.5;
+    order: 2;
+  }
+
+  .container .item-3 {
+    text-align: center;
+    background: palegoldenrod;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:1;
+    order:3;
+  }
+
+  .container .item-4 {
+    text-align: center;
+    background: tomato;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:0.5;
+    order: 4;
+  }
+  .container .item-5 {
+    text-align: center;
+    background: palegoldenrod;
+    border: 1px solid #ccc;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:1;
+    order: 5;
+  }
+
+  .container .item-6 {
+    text-align: center;
+    background: tomato;
+    border: 1px solid #ccc;
+
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:0.5;
+    order: 6;
+  }
+  .container .item-7 {
+    text-align: center;
+    background: palegoldenrod;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 25px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:1;
+    order:7;
+  }
+  .container .item-8 {
+    text-align: center;
+    background: tomato;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:0.5;
+    order:8;
+  }
+
+  .container .item-9 {
+    text-align: center;
+    background: palegoldenrod;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-basis: 30%;
+    flex-grow:1;
+    order:9;
+  }
+  .container .item-10 {
+    text-align: center;
+    background: tomato;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+    padding: 20px;
+    flex-basis: 100%;
+    order:10;
+  }
+  @media screen and (max-width:768px){
+    .container {
+        flex-direction:column-reverse;
+        justify-content:center;
+        align-items:stretch;
+        /* flex-grow:4;
+        flex-basis: 100%; */
+    }
+}
